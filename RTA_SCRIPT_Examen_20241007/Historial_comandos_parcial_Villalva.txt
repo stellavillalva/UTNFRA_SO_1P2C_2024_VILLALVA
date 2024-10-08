@@ -1,0 +1,416 @@
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo hola
+echo home
+echo HOME
+echo SHOME
+ls
+cat README
+cd repogit/
+git clone https://github.com/stellavillalva/repo_villalva.git
+ls
+cd repo_villalva/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519
+cd .ssh
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:stellavillalva/repo_villalva.git
+ls 
+cd repo_villalva/
+ls -l
+echo hola
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add.
+git status
+git add .
+git status
+git commit -m "agrego: hola"
+git commit
+git push
+git status
+cat /etc/passws
+cat /etc/passwd
+tale /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+head /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n no login
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/shadow
+sudo cat /etc/shadow 
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep -i model
+lscpu | grep -i MODEL | head -n1
+lscpu | grep -i MODEL | head -n1 > info_procesador.txt
+ls
+cat info_procesador.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+hystori
+history
+lscpu | grep -i model
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+bc <<< 1+2
+bc <<< 2*2
+bc <<< 300/2
+ls -l
+cat hola.txt 
+echo "chau"
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt
+echo "hola" > hola.txt
+cat hola.txt chau.txt  > saludo.txt
+cat saludo
+cat saludo.txt 
+ls -l
+git status
+git add .
+git add 
+git status
+git commit
+git push
+exit
+ssh-keygen
+ls
+cd carpeta_compartida/
+-ls
+ls -a
+cat $HOME
+cd ..
+ls
+cd $HOME
+ls
+ls -a
+cd .ssh
+ls
+cat $HOME/.ssh/*.pub
+cd
+ls
+mkdir repogit
+git clone git@github.com:stellavillalva/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+man grep
+grep 
+grep input
+-ls
+cat /etc/os-release
+ls
+ls -l
+repogit ls
+cd..
+cd ..
+ls
+cd repogit/
+ls
+git clone git@github.com:stellavillalva/TP_AySO.git
+ls
+cd TP_AySO/
+whoami
+echo "usuario=$(whoami)" > datos_usuario.txt
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+cd ..
+vagrant halt
+exit
+cp ~/.bash_history ./Historial_comandos_Tu-Nombre.txt
+git status
+git add .
+git commit -m "ADD: Cree un archivo con el historial de comandos"
+git push
+vagrant halt
+cd ..
+vagrant halt
+exit
+pwd
+mkdir repogit
+ls
+cd repogit/
+sudo git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+sudo git clone git@github.com:stellavillalva/UTNFRA_SO_1P2C_2024_VILLALVA.git
+ls -l
+tre
+tree
+sudo apt install tree
+tree
+cd ..
+cd repogit/
+tree
+clear
+ls
+sudo git clone git@github.com:stellavillalva/UTNFRA_SO_1P2C_2024_VILLALVA.git
+git clone git@github.com:stellavillalva/UTNFRA_SO_1P2C_2024_VILLALVA.git
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+tree
+clear
+exit
+clear
+sudo fdisk -l
+exit
+pws
+pwd
+ls -l
+cd repogit/
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+ls
+cd
+cd repogit/
+tree
+exit
+clear
+cd repogit/
+vim Punto_A.sh
+ls
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+ls
+tree
+./Punto_A.sh
+./PuntoA
+exit
+clear
+pws
+pwd
+ls -l
+cd repogit/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cat UTN-FRA_SO_Examenes/
+cd UTNFRA_SO_1P2C_2024_VILLALVA
+cd ..
+clear
+ls
+cd UTN_SO_1P2C_2024_VILLALVA
+rm Punto_A.sh 
+ls
+tree
+cd UTNFRA_SO_1P2C_2024_VILLALVA
+ls-l
+ls -ñ
+ls -l
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+vim Punto_A.sh
+ls -l
+chmod 755 Punto_A.sh
+ls -l
+vim Punto_B.sh
+cd ..
+sudo fdisk -l
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+vim Punto_B.sh
+sudo fdisk -l
+vim Punto_B.sh
+chmod 755 Punto_B.sh
+ls -l
+vim Punto_B.sh
+ls -l
+vim Punto_B.sh
+clear
+ls -l
+sudo grep vagrant/etc/shadow
+clear
+ls -l
+cd repogit/
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+cd ..
+tree /Examenes-UTN/
+cd ..
+ls -l
+cd repogit/
+ls -l
+cd UTN-FRA_SO_Examenes/
+tree
+ls -l
+cd /
+ls -l
+cd ..
+vagrant halt
+exit
+clear
+ls -l
+cd repogit/
+cd ..
+whoami
+clear
+$HOME/repogit/
+clear
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+ls -l
+cd repogit/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history-a
+clear
+tree UTNFRA_SO_1P2C_2024_VILLALVA/
+rm -r RTA_SCRIPT_Examen_20241005
+rm -r /RTA_SCRIPT_Examen_20241005/
+rm -r /RTA_SCRIPT_Examen_20241007/
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+rm -r /RTA_SCRIPT_Examen_20241005/
+sudo rm -r /RTA_SCRIPT_Examen_20241005/
+clear
+ls -l
+cd ..
+ls -l
+rm -r UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+cd ..
+clear
+ls -l
+rm UTNFRA_SO_1P2C_2024_VILLALVA/
+rmdir UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+rmdir -r UTNFRA_SO_1P2C_2024_VILLALVA/
+rm -d UTNFRA_SO_1P2C_2024_VILLALVA/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+sudo rm -R UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+git clone git@github.com:stellavillalva/UTNFRA_SO_1P2C_2024_VILLALVA.git
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+ls -l
+clear
+exit
+cd repogit/
+ls -l
+cd UTNFRA_SO_1P2C_2024_VILLALVA/
+tree
+git status
+git add RTA_SCRIPT_Examen_20241007/
+cd RTA_SCRIPT_Examen_20241007/
+git status
+vim Punto_A.sh
+git status
+git add Punto_A.sh 
+git commit -m"ADD: Agregue resolucion del Punto_A"
+git status
+git push
+sudo chmod 755 Punto_A.sh
+vim Punto_B.sh
+git status
+sudo chmod 755 Punto_b.sh
+sudo chmod 755 Punto_B.sh
+git add .
+git commit -m "ADD: Agregue resolucion Punto_B y permisos de Punto_A y Punto_B"
+git push
+vim Punto_C.sh
+sudo chmod 755 Punto_C.sh
+git status
+git add .
+git commit -m "ADD: Agregue resolucion Punto_C mas permisos de ejecucion"
+git push
+vim Punto_D.sh
+sudo chmod 755 Punto_D.sh
+git status
+git add .
+git commit -m "ADD: Agregue resolucion Punto_D y sus permisos"
+git push
+vim Punto_E.sh
+sudo chmod 755 Punto_D.sh
+git status
+sudo chmod 755 Punto_E.sh
+git status
+git add .
+git commit -m "ADD: Agregue resolucion del Punto_E con permisos"
+git push
+vim Punto_F.sh
+sudo chmod 755 Punto_F.sh
+git status
+git add .
+git commit -m "ADD: Agregue resolucion del Punto_F con sus permisos"
+git push
+cd ..
+vim README.md
+git status
+git add .
+git commit -m "ADD: Modificacion README.md con mis datos"
+git push
+history -a
+history
+ls -l
+cd RTA_SCRIPT_Examen_20241007/
+ls -l
+./Punto_A.sh
+./Punto_B.sh
+./Punto_C.sh
+./Punto_D.sh
+./Punto_E.sh
+./Punto_F.sh
+cd ..
+ls -l
+cd RTA_SCRIPT_Examen_20241007/
+ls -l
+vim Punto_F.sh
+git status
+git add Punto_F.sh
+git commit -m "ADD: intento de correccion del Punto_F"
+git push
+./Punto_F.sh
+history
+history -a $HOME/.bash_history
